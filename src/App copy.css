@@ -1,4 +1,4 @@
-/* .main-container {
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   position: relative;
   height: 400vh;
   background-repeat: no-repeat;
-} */
+}
 
 .backdrop-common {
   background-size: cover;
@@ -136,25 +136,30 @@
   font-size: 15px;
 }
 
-/* Ground floor grid layout starts here. */
-
-.sign {
-  grid-area: sign;
+.ground {
+  display: flex;
+  background-size: contain;
+  position: absolute;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 173%;
 }
 
 .spray-painter {
-  grid-area: spray-painter;
+  display: flex;
+  padding-top: 28%;
+  padding-left: 10%;
 }
 
-.disc-jockey {
-  grid-area: disc-jockey;
+.spray-painter-image {
+  width: 93%;
 }
-.ground {
-  display: grid;
-  grid-template-columns: repeat(7, 150px);
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". . . sign . . ."
-    "spray-painter . . . . . disc-jockey"
-    ". . . . . . .";
+
+.spider-bot {
+  display: flex;
+}
+
+.spider-bot-image {
+  width: 93%;
 }
