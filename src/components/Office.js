@@ -6,7 +6,13 @@ import Animation from "./Animation";
 import Content from "./Content";
 import WebDev from "./WebDev";
 import Testimonial from "./Testimonial";
-import Ground from "./Ground";
+import SprayPainter from "./SprayPainter";
+import DiscJockey from "./DiscJockey";
+import AristocatEntranceSign from "./AristocatEntranceSign";
+import Social from "./Social";
+import Team from "./Team";
+import SpiderBot from "./SpiderBot";
+import GreenBot from "./GreenBot";
 
 export default function Office() {
   return (
@@ -18,7 +24,13 @@ export default function Office() {
       <Content />
       <WebDev />
       <Testimonial />
-      <Ground />
+      <SprayPainter />
+      <DiscJockey />
+      <AristocatEntranceSign />
+      <Social />
+      <Team />
+      <SpiderBot />
+      <GreenBot />
     </div>
   );
 }

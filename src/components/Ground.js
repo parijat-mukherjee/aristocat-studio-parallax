@@ -13,10 +13,18 @@ export default function Ground() {
         <img className="sign-image" src={aristocat_sign} alt="aristocat-sign" />
       </div>
       <div className="spray-painter">
-        <img src={spray_painter} alt="spray-painter" />
+        <img
+          className="spray-painter-image"
+          src={spray_painter}
+          alt="spray-painter"
+        />
       </div>
       <div className="disc-jockey">
-        <img src={disc_jockey} alt="disc-jockey" />
+        <img
+          className="disc-jockey-image"
+          src={disc_jockey}
+          alt="disc-jockey"
+        />
       </div>
     </div>
   );

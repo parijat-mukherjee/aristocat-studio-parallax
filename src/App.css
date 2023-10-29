@@ -1,4 +1,4 @@
-/* .main-container {
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   position: relative;
   height: 400vh;
   background-repeat: no-repeat;
-} */
+}
 
 .backdrop-common {
   background-size: cover;
@@ -136,25 +136,73 @@
   font-size: 15px;
 }
 
-/* Ground floor grid layout starts here. */
-
-.sign {
-  grid-area: sign;
+.spray-painter {
+  display: flex;
+  position: absolute;
+  top: 83%;
+  left: 5.7%;
 }
 
-.spray-painter {
-  grid-area: spray-painter;
+.spray-painter-image {
+  width: 80%;
 }
 
 .disc-jockey {
-  grid-area: disc-jockey;
+  position: absolute;
+  top: 88.8%;
+  left: 74%;
 }
-.ground {
-  display: grid;
-  grid-template-columns: repeat(7, 150px);
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". . . sign . . ."
-    "spray-painter . . . . . disc-jockey"
-    ". . . . . . .";
+
+.disc-jockey-image {
+  width: 100%;
+}
+
+.aristocat-sign {
+  position: absolute;
+  top: 81.3%;
+  left: 32%;
+}
+
+.aristocat-sign-image {
+  width: 80%;
+}
+
+.social {
+  position: absolute;
+  top: 87.3%;
+  left: 25%;
+}
+
+.social-image {
+  width: 80%;
+}
+
+.team {
+  position: absolute;
+  top: 88.5%;
+  left: 39%;
+}
+
+.team-image {
+  width: 80%;
+}
+
+.spider-bot {
+  position: absolute;
+  top: 93.9%;
+  left: 18%;
+}
+
+.spider-bot-image {
+  width: 80%;
+}
+
+.green-bot {
+  position: absolute;
+  top: 93.9%;
+  left: 67%;
+}
+
+.green-bot-image {
+  width: 80%;
 }

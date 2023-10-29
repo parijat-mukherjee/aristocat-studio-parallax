@@ -8,9 +8,8 @@ import "./App.css";
 export default function App() {
   return (
     <div className="main-container">
-      {/* <BackDrop />
-      <Office /> */}
-      <Ground />
+      <BackDrop />
+      <Office />
     </div>
   );
 }
