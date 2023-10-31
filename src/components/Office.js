@@ -21,6 +21,7 @@ export default function Office() {
   return (
     <div className="office">
       <MainBuilding />
+
       <Roof />
       <Illustration />
       <Animation />
