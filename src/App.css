@@ -10,36 +10,6 @@
   background-repeat: no-repeat;
 }
 
-.backdrop-common {
-  background-size: cover;
-  box-sizing: border-box;
-  margin: auto;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-}
-
-.clouds {
-  background-image: url("./images/layers/cloud.png");
-}
-
-.silhouette {
-  background-image: url("./images/layers/silhouette.png");
-}
-
-.building-three {
-  background-image: url("./images/layers/building-three.png");
-}
-
-.building-two {
-  background-image: url("./images/layers/building-two.png");
-}
-
-.building-one {
-  background-image: url("./images/layers/building-one.png");
-}
-
 .office {
   display: flex;
   flex-direction: column;

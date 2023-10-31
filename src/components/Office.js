@@ -1,4 +1,7 @@
 import React from "react";
+
+import { ParallaxLayer } from "@react-spring/parallax";
+
 import MainBuilding from "./MainBuilding";
 import Roof from "./Roof";
 import Illustration from "./Illustration";
