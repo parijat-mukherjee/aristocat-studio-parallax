@@ -1,10 +1,11 @@
 import React from "react";
+import { ParallaxLayer } from "@react-spring/parallax";
 import content from "../images/layers/content.png";
 
 export default function Content() {
   return (
-    <div className="content building-common">
-      <img className="content-image" src={content} alt="content floor" />
-    </div>
+    <ParallaxLayer offset={1} speed={0.5} factor={0.5} className="content">
+      <img className="content-image" src={content} alt="content" />
+    </ParallaxLayer>
   );
 }
