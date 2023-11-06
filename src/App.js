@@ -1,18 +1,33 @@
 import React from "react";
-import BackDrop from "./components/BackDrop";
-import Office from "./components/Office";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useRef } from "react";
 import "./App.css";
+import BackDrop from "./components/BackDrop";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import MainBuilding from "./components/MainBuilding";
+import Roof from "./components/Roof";
+import Illustration from "./components/Illustration";
+import Animation from "./components/Animation";
+import Content from "./components/Content";
+import WebDev from "./components/WebDev";
+import Testimonial from "./components/Testimonial";
 
 export default function App() {
   return (
-    <Parallax pages={4.6}>
-      <div className="main-container">
-        <BackDrop />
+    <Parallax className="main-container" pages={3.41}>
+      <BackDrop />
 
-        <Office />
-      </div>
+      <MainBuilding />
+
+      <Roof />
+
+      <Illustration />
+
+      <Animation />
+
+      <Content />
+
+      <WebDev />
+
+      <Testimonial />
     </Parallax>
   );
 }

@@ -5,8 +5,8 @@ import building from "../images/layers/building-main.png";
 
 export default function MainBuilding() {
   return (
-    <div className="building-main">
+    <ParallaxLayer offset={0} speed={0.5} factor={5} className="office">
       <img className="building-image" src={building} alt="main-building" />
-    </div>
+    </ParallaxLayer>
   );
 }

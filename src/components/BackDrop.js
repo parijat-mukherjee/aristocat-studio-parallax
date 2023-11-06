@@ -8,10 +8,10 @@ import building_three from "../images/layers/building-three.png";
 
 export default function BackDrop() {
   return (
-    <>
+    <div>
       <ParallaxLayer
         offset={0}
-        speed={-0.1}
+        speed={0.05}
         factor={5}
         style={{
           backgroundImage: `url(${cloud})`,
@@ -23,7 +23,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={-0.2}
+        speed={0.1}
         factor={5}
         style={{
           backgroundImage: `url(${silhouette})`,
@@ -35,7 +35,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={-0.3}
+        speed={0.2}
         factor={3}
         style={{
           backgroundImage: `url(${building_one})`,
@@ -47,7 +47,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={-0.4}
+        speed={0.2}
         factor={5}
         style={{
           backgroundImage: `url(${building_two})`,
@@ -59,7 +59,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={-0.5}
+        speed={0.2}
         factor={5}
         style={{
           backgroundImage: `url(${building_three})`,
@@ -68,6 +68,6 @@ export default function BackDrop() {
           height: "100%",
         }}
       ></ParallaxLayer>
-    </>
+    </div>
   );
 }
