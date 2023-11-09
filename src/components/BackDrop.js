@@ -11,7 +11,7 @@ export default function BackDrop() {
     <div>
       <ParallaxLayer
         offset={0}
-        speed={0.05}
+        speed={0.03}
         factor={5}
         style={{
           backgroundImage: `url(${cloud})`,
@@ -23,7 +23,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={0.1}
+        speed={0.05}
         factor={5}
         style={{
           backgroundImage: `url(${silhouette})`,
@@ -35,7 +35,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={0.2}
+        speed={0.1}
         factor={3}
         style={{
           backgroundImage: `url(${building_one})`,
@@ -59,7 +59,7 @@ export default function BackDrop() {
 
       <ParallaxLayer
         offset={0}
-        speed={0.2}
+        speed={0.23}
         factor={5}
         style={{
           backgroundImage: `url(${building_three})`,
