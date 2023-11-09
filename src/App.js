@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import BackDrop from "./components/BackDrop";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { Parallax } from "@react-spring/parallax";
 import MainBuilding from "./components/MainBuilding";
 import Roof from "./components/Roof";
 import Illustration from "./components/Illustration";
